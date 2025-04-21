@@ -1,11 +1,13 @@
 {
   "dependencies": {
-    "express": "^4.19.2",
+    "express": "^5.1.0",
     "nodemon": "^3.1.4"
   },
+"name": "backend-lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node --watch index.js"
   }
-
 }
